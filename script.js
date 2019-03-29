@@ -1,6 +1,6 @@
+var p1Button = document.querySelector("#p1");
 
-var player1 = document.querySelector('.p1');
 
-player1.addEventListener('click', function(){
+p1Button.addEventListener('click',function(){
     alert('clicked');
 });
