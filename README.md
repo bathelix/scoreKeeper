@@ -1,0 +1,1 @@
+Simple JavaScript app to keep score of any game.  Click player to update score and use input field to change total score to play to.  Once winning score is reached player score turns green and score is stopped, use reset to start again.
