@@ -47,17 +47,24 @@ p2Button.addEventListener('click',function(){
 // GAME OVER RESET *******************************************
 
 resetButton.addEventListener("click", function(){
-    p1Score = 0;
-    p2Score = 0;
-    p1Display.textContent = 0;
-    p2Display.textContent = 0;
-    p1Display.classList.remove('winner');
-    p2Display.classList.remove('winner');
-    gameOver = false;
-});
+    reset();
+ });
+
+function reset () {
+        p1Score = 0;
+        p2Score = 0;
+        p1Display.textContent = 0;
+        p2Display.textContent = 0;
+        p1Display.classList.remove('winner');
+        p2Display.classList.remove('winner');
+        gameOver = false;
+}
+
 
 // CHANGING SCORE TO PLAY TO FUNCTIONALITY ********************
 
 numInput.addEventListener('change', function () {
     winningScoreDisplay.textContent = numInput.value;
+    winningScore = Number(numInput.value);
+    reset();
 });

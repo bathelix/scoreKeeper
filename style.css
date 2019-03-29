@@ -1,3 +1,40 @@
 .winner {
     color:green;
 }
+
+.title {
+    text-align: center;
+    padding-top:30px;
+    color:white;
+    background:grey;
+    border:solid black 3px;
+    font-size:3.5em;
+    height: 100px;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+input {
+    margin-left:200px;
+    font-size: 1.5em;
+}
+
+h1, #p1Display, #p2Display {
+    text-align: center;
+    font-size:2em;
+}
+
+p {
+    margin-left:200px;
+}
+
+p span {
+    font-size: 2em;
+}
+
+.calvin {
+    text-align: center;
+    margin-top: 50px;
+}
